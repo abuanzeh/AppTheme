@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppTheme</string>
+    <string name="system">System</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="select_app_theme">Select App Theme</string>
+</resources>
