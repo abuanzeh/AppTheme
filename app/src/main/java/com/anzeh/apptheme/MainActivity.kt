@@ -48,12 +48,12 @@ class MainActivity : AppCompatActivity() {
             AppThemeEnums.LIGHT -> {
                 binding.rbLight.isChecked = true
                 disableDarkTheme()
-                binding.tvAppCurrentTheme.text = getString(R.string.dark)
+                binding.tvAppCurrentTheme.text = getString(R.string.light)
             }
             AppThemeEnums.DARK -> {
                 binding.rbDark.isChecked = true
                 enableDarkTheme()
-                binding.tvAppCurrentTheme.text = getString(R.string.light)
+                binding.tvAppCurrentTheme.text = getString(R.string.dark)
             }
             AppThemeEnums.SETTING -> {
                 binding.rbSystem.isChecked = true
